@@ -1,0 +1,98 @@
+/*Styling default page*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+/*Styling body background */
+body {
+  background: #084f54;
+}
+
+/*Styling outermost Div*/
+.app {
+  background: #fff;
+  width: 90%;
+  max-width: 600px;
+  margin: 100px auto 0;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+/* Styling Topmost header*/
+.app h1 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #020a18;
+  background: #0f6f76;
+  border: 2px solid #270a0a;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+/* Styling Inner Div */
+.quiz {
+  padding: 20px 0;
+}
+
+/*Styling Quiz Question Display Area */
+.quiz h2 {
+  font-size: 18px;
+  color: #001e4d;
+  font-weight: 600;
+}
+
+/*Styling Option Buttons */
+.btn {
+  background: #fff;
+  color: #222;
+  font-weight: 500;
+  width: 100%;
+  border: 1px solid #222;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: left;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+/*Styling option buttons while hovering before selecting option */
+.btn:hover:not([disabled]) {
+  background-color: #222;
+  color: #fff;
+}
+
+/*Styling Option buttons while disabled after selecting*/
+.btn:disabled {
+  cursor: no-drop;
+}
+
+/*Styling Next Button */
+#next-btn {
+  background-color: #001e4d;
+  color: #fff;
+  font-weight: 500;
+  width: 150px;
+  border: 0;
+  padding: 10px;
+  margin: 20px auto 0;
+  border-radius: 4px;
+  cursor: pointer;
+  display: none;
+}
+
+#quesDetails {
+  display: none;
+  padding-top: 10px;
+}
+
+.correct {
+  background: #9aeabc;
+}
+
+.incorrect {
+  background: #ff9393;
+}
